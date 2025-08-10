@@ -28,7 +28,7 @@ function App() {
                 },
               },
               error: {
-                duration: 5000,
+                duration: 3000,
                 theme: {
                   primary: '#ff4b4b',
                 },

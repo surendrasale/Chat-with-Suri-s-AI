@@ -111,7 +111,8 @@ const Login = () => {
           <span className="title">Or</span>
           <div className="social-accounts">
             <button
-              className="signin"
+               type="button"
+              className="button"
               onClick={handleGoogleLogin}
               disabled={loading}
             >

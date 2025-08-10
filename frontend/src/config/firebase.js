@@ -13,13 +13,13 @@ import {
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCgDucH4oF7Qfph7VdrwNu_1qdeAfCcNtQ",
-  authDomain: "ai-chat-bot-445ad.firebaseapp.com",
-  projectId: "ai-chat-bot-445ad",
-  storageBucket: "ai-chat-bot-445ad.firebasestorage.app",
-  messagingSenderId: "809825928566",
-  appId: "1:809825928566:web:9876d685980529f30ce657",
-  measurementId: "G-YM1F6BPGGV"
+  apiKey: "apiKey",
+  authDomain: "doamin name",
+  projectId: "projectId",
+  storageBucket: "storageBucket",
+  messagingSenderId: "messagingSenderId",
+  appId: "appId",
+  measurementId: "measurementId"
 };
 
 // Initialize Firebase

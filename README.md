@@ -55,7 +55,7 @@ npm start
   - Database: PostgreSQL with connection pooling
   - Authentication: Firebase Auth + JWT tokens
   - AI Integration: OpenRouter API
-  - **Dual Server Setup**: Frontend (port 3000) + Backend (port 5000)
+  - **Dual Server Setup**: Frontend (port 3000) + Backend (port 3000)
 
 ## 📁 Project Structure
 
@@ -186,7 +186,7 @@ JWT_SECRET=your_super_secret_jwt_key_here_make_it_long_and_random_12345
 OPENROUTER_API_KEY=your_openrouter_api_key_here
 
 # Server
-PORT=5000
+PORT=3000
 NODE_ENV=development
 
 # Frontend URL (for CORS)
@@ -244,8 +244,8 @@ npm start
 ```
 
 **The application will be available at:**
-- **Frontend**: http://localhost:3000 (development) or http://localhost:5000 (production)
-- **Backend API**: http://localhost:5000/api/*
+- **Frontend**: http://localhost:3000 (development) or http://localhost:3000 (production)
+- **Backend API**: http://localhost:3000/api/*
 
 ## 🔧 API Endpoints
 
@@ -328,7 +328,7 @@ DB_USER=your_db_user
 DB_PASSWORD=your_db_password
 OPENROUTER_API_KEY=your_openrouter_key
 JWT_SECRET=your_long_random_secret
-PORT=5000
+PORT=3000
 NODE_ENV=production
 FRONTEND_URL=https://your-domain.com
 FIREBASE_SERVICE_ACCOUNT_PATH=./config/firebase-service-account.json
